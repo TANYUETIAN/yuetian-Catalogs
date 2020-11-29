@@ -1,7 +1,7 @@
 CREATE TABLE catalogs(
     isbn CHAR(13),
-    Author VARCHAR(128),
-    Title VARCHAR(128),
+    author VARCHAR(128),
+    title VARCHAR(128),
     price DECIMAL(18,2), 
     PRIMARY KEY (isbn)
 );
